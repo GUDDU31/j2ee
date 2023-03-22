@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Aadhar correction form</title>
+</head>
+<body>
+
+
+
+<body>
+    <form action="/Form" method="post">
+        <table border="1px solid">
+            <tr>
+                <td>1</td>
+                <td>
+                    <label for="">Pre Enrolment ID (if applicable)</label>
+                    <br>
+                    <input type="text" name="" id="">
+                </td>
+                <td>2</td>
+                <td>In case of Update provide Aadhar Number (UID) <br>
+                    <input type="number" name="" id="">
+                </td>
+            </tr>
+            <!-- 2 row -->
+            <tr>
+                <td>2.1</td>
+                <td colspan="3">
+                    <input type="checkbox" name="det" id="">
+                    <label for="">Biometric Update (Photo+Fingerprint+Iric)</label>
+                    <input type="checkbox" name="det" id="">
+                    <label for="">Mobile</label>
+                    <input type="checkbox" name="det" id="">
+                    <label for="">Date of Birth</label>
+                    <input type="checkbox" name="det" id="">
+                    <label for="">Address</label>
+                    <input type="checkbox" name="det" id="">
+                    <label for="">Name</label>
+                    <input type="checkbox" name="det" id="">
+                    <label for="">Gender</label>
+                    <input type="checkbox" name="det" id="">
+                    <label for="">Email</label>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td colspan="3">
+                    <select name="" id=""> 
+                        <option value="none">None</option>
+                        <option value="">Mr.</option>
+                        <option value="">Mrs.</option>
+                        <option value="">Ms.</option>
+                    </select>
+                    <label for="">Full Name</label>
+                    <input type="text" name="" required id="">
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    <label for="" align="center">Gender:</label> <br>
+                    <input type="radio" name="gen" id="" required>
+                    <label for="">Male</label>
+                    <input type="radio" name="gen" id="" >
+                    <label for="">Female</label>
+                    <input type="radio" name="gen" id="">
+                    <label for="">Other</label>
+                </td>
+                <td>5</td>
+                <td>
+                    <label for="">Age:</label>
+                    <input type="number" name="" minlength="0" maxlength="3" id="">
+                    <label for="">OR</label>
+                    <label for="">Date of Birth</label>
+                    <input type="date" name="" id="" required>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="6">6</td>
+                <td colspan="3">
+                    <label for="">Address: C/o</label>
+                    <input type="text" name="" id="">
+                </td>
+            <tr>
+                <td colspan="2">
+                    <label for="">House No./Bldg./Apt:</label>
+                    <input type="text" name="" id="">
+                </td>
+                <td>
+                    <label for="">Street/Road/Lane:</label>
+                    <input type="text" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="">Landmark:</label>
+                    <input type="text" name="" id="">
+                </td>
+                <td>
+                    <label for="">Area/Locality/Sector:</label>
+                    <input type="text" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="">Village/Town/City:</label>
+                    <input type="text" name="" id="">
+                </td>
+                <td>
+                    <label for="">Post Office:</label>
+                    <input type="text" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">District:</label>
+                    <input type="text" name="" id="">
+                </td>
+                <td>
+                    <label for="">Sub-District:</label>
+                    <input type="text" name="" id="">
+                </td>
+                <td>
+                    <label for="">State:</label>
+                    <input type="text" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">E-Mail:</label>
+                    <input type="email" name="" id="">
+                </td>
+                <td>
+                    <label for="">Mobile No.:</label>
+                    <input type="number" name="" id="">
+                </td>
+                <td>
+                    <label for="">Pin Code:</label>
+                    <input type="number" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3">7 </td>
+                <td colspan="3">
+                    <label for="">Details of:</label>
+                    <input type="radio" name="re" id="">
+                    <label for="">Father</label>
+                    <input type="radio" name="re" id="">
+                    <label for="">Mother</label>
+                    <input type="radio" name="re" id="">
+                    <label for="">Guardian</label>
+                    <input type="radio" name="re" id="">
+                    <label for="">Husband</label>
+                    <input type="radio" name="re" id="">
+                    <label for="">Wife</label>
+                </td>
+            <tr>
+                <td colspan="3">
+                    <label for="">Name:</label>
+                    <input type="text" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="">EID/Aadhar No.:</label>
+                    <input type="number" name="" id="">
+                    <input type="datetime-local" name="" id="">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    <label for="">Verification Type:</label>
+                    <input type="radio" name="ver" id="">
+                    <label for="">Document Based</label>
+                    <input type="radio" name="ver" id="">
+                    <label for="">Introducer Based</label>
+                    <input type="radio" name="ver" id="">
+                    <label for="">Head of Family Based</label> <br>
+                    <p>
+                       Select only one of the above. Select Introducer or Head of family only if you don not process any documentary proof of identification and / or address. Introducer and head of family deatails are not required in case of Document based verification. 
+                    </p>
+                </td>
+            </tr>
+           <tr>
+            <td>8</td>
+            <td colspan="3"><b>For Document Based</b></td>
+           </tr>
+           <tr>
+            <td colspan="2">
+                <label for="">a.   POI</label>
+                <input type="text" name="" id="">
+                <input type="file" name="" id="" accept=".jpg, .pdf">
+            </td>
+            <td colspan="2">
+                <label for="">b.   POA</label>
+                <input type="text" name="" id="">
+                <input type="file" name="" id="" accept=".jpg, .pdf">
+            </td>   
+           </tr>
+           <tr>
+            <td colspan="2">
+                <label for="">c.   DOB</label>
+                <input type="text" name="" id="">
+                <input type="file" name="" id="" accept=".jpg, .pdf">
+            </td>
+            <td colspan="2">
+                <label for="">d.   POR</label>
+                <input type="text" name="" id="">
+                <label for="">b.   POA</label>
+                <input type="file" name="" id="" accept=".jpg, .pdf">
+            </td>
+           </tr>
+           <tr>
+            <td>9</td>
+            <td>
+               <label for=""><b>For Introducer-</b>Introducer's</label> <br>
+               Aadhar No.: <input type="number" name="" id=""> 
+            </td>
+            <td colspan="2">
+            <label for=""><b>For HOF Based-</b>Details of:</label>
+            <input type="radio" name="" id="">
+            <label for="">Father</label>
+            <input type="radio" name="" id="">
+            <label for="">Mother</label>
+            <input type="radio" name="" id="">
+            <label for="">Guardian</label>
+            <input type="radio" name="" id="">
+            <label for="">Husband</label>
+            <input type="radio" name="" id="">
+            <label for="">Wife</label> <br>
+            <label for="">HOF's EId/Aadhar No.:</label>
+            <input type="number" name="" id="">
+        </td>
+           </tr>
+           <tr>
+            <td colspan="4">
+                <p>
+                    I hereby confirm the identity and address of <input type="text" name="" placeholder="write here" id="">
+                 as being true, correct and accurate. <br>
+                 Introducer/HOf's Name: <input type="text" placeholder="write name here" name="" id="">
+                 <b>Upload Signature of Introducer/HOF</b> <input type="file" name="" id="" accept="image/*, .pdf" >
+                </p>
+            </td>
+           </tr>
+           <tr>
+            <td colspan="4">
+           <input type="submit" value="Submit">
+           <input type="reset" value="Reset">
+        </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
