@@ -34,10 +34,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.jspiders.springrest"/>
 		</list>
 		<list key="groupId">
+			<item value="com.jspiders"/>
 		</list>
 		<list key="artifactId">
+			<item value="springrest"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
